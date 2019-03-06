@@ -1,0 +1,10 @@
+image: node:8.15.1-jessie
+
+before_script:
+- npm install
+
+stages:
+- build
+
+Build:
+  script: npm build
